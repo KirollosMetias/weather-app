@@ -1,0 +1,177 @@
+*{
+    text-decoration: none !important;
+    list-style: none !important;
+}
+.clearFix{
+    clear: both;
+}
+body{
+    background-color: #262936;
+}
+.navbar{
+    background-color: #1E202B;
+}
+nav h1{
+    font-size: 16px;
+}
+.navbar .logo span{
+    color: #BFC1C8;
+    font-size: x-small;
+}
+.navbar .nav-item a{
+    margin: .625rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 2px 25px;
+}
+.navbar .nav-link {
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 1.875rem;
+    transition: all 0.3s ease-in-out;
+}
+.navbar .nav-link:hover {
+    color: #009AD8;
+    border-color:  #009AD8;
+}
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link.show 
+{
+    color: #009AD8;
+    border: 2px solid #009AD8;
+}
+
+#home{
+    background-color: #1E202B;
+    background-image: url(../imgs/banner.png);
+    background-repeat: no-repeat;
+}
+.input::placeholder{
+    color: #757575;
+}
+.form #search{
+    padding: 1rem;
+    border: 0px transparent;
+    border-radius: 30px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    background: #1e202b;
+    color: white;
+}
+.form{
+    position: relative;
+}
+.form .form-control{
+    display: inline-block;
+    color: white !important;
+}
+.form #submit{
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    padding-inline: 2rem;
+    bottom: 4.4rem;
+    right: 6px;
+    
+}
+
+.card{
+    border: transparent;
+}
+.card-header{
+    background-color: #2D303D;
+    color: white;
+    border-bottom: transparent;
+}
+.card1{
+    background-color: #323544;
+}
+.list-group{
+    background-color: #323544;
+    color: white;
+}
+.degree{
+    font-size: 70px;
+    font-weight: 700;
+}
+.degree-icon img{
+    width: 90px;
+}
+.card2{
+    background-color:#262936 ;
+}
+.header2{
+    background-color: #222530;
+}
+.card-content{
+    background-color: #262936;
+    color: white;
+    text-align: center;
+}
+.card-degree{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+small{
+    color: #bfc1c8;
+}
+.card3{
+    background-color: #323544;
+}
+.header3{
+    background-color: #2D303D;
+}
+.card-content3{
+    background-color: #323544;
+}
+footer{
+    background-color: #262936;
+}
+.second-input .search{
+    padding: 1rem;
+    border: 0px transparent;
+    border-radius: 30px;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    background: #1e202b;
+    color: white;
+}
+.second-input .second-form{
+    position: relative;
+}
+.second-input #submit2{
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+    position: absolute;
+    padding-inline: 2rem;
+    bottom: 0.4rem;
+    right: 13.7rem;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 1.5em;
+    transition: all .3s;
+}
+.social-links a:hover{
+    color: white;
+    background-color: #009ad8;
+}
+.footer-text{
+    color: white;
+    font-size: 14px;
+}
